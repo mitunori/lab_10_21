@@ -1,0 +1,43 @@
+.hako {
+  /* df tabキー */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ここから下に書きます */
+.box1 {
+  /* w100 tabキー */
+  width: 100px;
+  /* h100 tabキー */
+  height: 100px;
+  /* bg tabキー */
+  background: pink;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+  background: pink;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
